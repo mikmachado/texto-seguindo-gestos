@@ -1,3 +1,20 @@
+> [!IMPORTANT]
+> **Esta skill mudou de endereço.** A versão atual (e todas as próximas atualizações) está em
+> **[github.com/mikmachado/skills-publicas → edicao-de-video/texto-seguindo-gestos](https://github.com/mikmachado/skills-publicas/tree/main/edicao-de-video/texto-seguindo-gestos)**.
+> Este repositório ficou congelado e não recebe mais atualizações.
+
+Para instalar a versão atual:
+
+```bash
+git clone https://github.com/mikmachado/skills-publicas.git
+mkdir -p ~/.claude/skills
+cp -R skills-publicas/edicao-de-video/texto-seguindo-gestos ~/.claude/skills/
+```
+
+Lá também estão as outras skills de edição de vídeo do Instagram [@mik_machado](https://www.instagram.com/mik_machado/).
+
+---
+
 # Texto seguindo gestos — skill para o Claude Code
 
 Você fala para a câmera e, a cada frase, **desenha uma forma no ar com as mãos**. A frase fica presa nessa forma, parada no lugar: aparece por onde a mão passa, a forma se fecha, fica um pouco em cena e sai. Depois entra a próxima.
